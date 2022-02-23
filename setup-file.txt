@@ -1,0 +1,27 @@
+> Create next.js project
+
+    -- npx create-next-app nft-marketplace  // Create project
+
+> Dependencies
+
+    -- npm install ethers // libery to intract with the etherum blockchain
+    -- npm install hardhat // used to compile and deploy smart contracts
+    -- npm install @nomiclabs/hardhat-waffle @nomiclabs/ethereum-waffle @nomiclabs/hardhat-ethers
+    -- npm install chai // javascript testing libery
+    -- npm install web3modal // used to connect with the wallet for transations
+    -- npm install @openzepplin/contracts // libery that contains ERC721 contracts as build in standard
+    -- npm install ipfs-http-client  // storing decenterlized files
+    -- npm install axios // asynchrones javascript calls
+    -- npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest  // css style libery
+
+> Initialize tailwindcss on the project
+
+    -- npx tailwindcss init -p
+
+> Initialize hardhat and build some smart contracts
+
+    -- npx hardhat // setup basic enviroment with smartcontract to start
+
+> openzepplin/token/ERC721  contract    // on node modueles
+
+    -- required to do nft on ethereum (non foungable token standard) as part of EIP 721 ethereum
